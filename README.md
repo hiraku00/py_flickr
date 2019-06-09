@@ -1,11 +1,11 @@
 Note for myself
 
-# operating environment
+# Operating Environment
 - macOS Mojave 10.14
 - Python 3.6.8
 - flickapi 2.4
 
-# preparation
+# Preparation
 Get flickr API key & install library(flickapi) [Link](http://ykubot.com/2017/11/05/flickr-api/)
 
 # code
@@ -49,7 +49,7 @@ for i, photo in enumerate(photos['photo']):
 ```
 
 # Execution method
-- Create a directory for saving search keywords in the same hierarchy as download.py
-- Execution is "python download.py search keyword (= save directory)"
+- Before execution, create a save directory for "search keyword" in a folder in the same hierarchy as "download.py"
+- Execution is "python download.py [search keyword](=save directory)"
 
 # in Japanese
