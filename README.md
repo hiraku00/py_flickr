@@ -8,7 +8,7 @@ Note for myself
 # Preparation
 Get flickr API key & install library(flickapi) [Link](http://ykubot.com/2017/11/05/flickr-api/)
 
-# code
+# Code
 ```python:download.py
 from flickrapi import FlickrAPI
 from urllib.request import urlretrieve
@@ -48,8 +48,12 @@ for i, photo in enumerate(photos['photo']):
     time.sleep(wait_time)
 ```
 
-# Execution method
+# Run
 - Before execution, create a save directory for "search keyword" in a folder in the same hierarchy as "download.py"
-- Execution is "python download.py [search keyword](=save directory)"
+- After creating the save folder, execute as follows ("Keyword" is the character to search for with flickr)
+
+```terminal
+$ python download.py Keyword
+```
 
 # in Japanese
